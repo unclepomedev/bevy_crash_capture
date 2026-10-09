@@ -106,6 +106,12 @@ Add `features = ["confirm-dialog"]` for a native Yes/No prompt before sending (p
 - Does not include a production notification backend. Bring your own (Sentry, your own service, etc.).
 - Multiple `App`s in one process share a single panic hook and each get every report (see `plugin::panic_worker` if you need the details).
 
+## Compatible Bevy versions
+
+| Bevy version | `bevy_crash_reporter` version |
+|:-------------|:------------------------------|
+| `0.20`       | `0.1`                         |
+
 ## License
 
 MIT or Apache-2.0
