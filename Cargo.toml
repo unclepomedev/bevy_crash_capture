@@ -11,7 +11,7 @@ categories = ["game-development"]
 
 [dependencies]
 minidumper-child = "0.6"
-bevy_app = { version = "0.20.0", default-features = false, features = ["std"] }
+bevy_app = { version = "0.20", default-features = false, features = ["std"] }
 ureq = { version = "3", features = ["json"], optional = true }
 serde = { version = "1", features = ["derive"], optional = true }
 rfd = { version = "0.17", optional = true }
