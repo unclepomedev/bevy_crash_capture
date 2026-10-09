@@ -108,9 +108,9 @@ Add `features = ["confirm-dialog"]` for a native Yes/No prompt before sending (p
 
 ## Compatible Bevy versions
 
-| Bevy version | `bevy_crash_reporter` version |
-|:-------------|:------------------------------|
-| `0.20`       | `0.1`                         |
+| Bevy version | `bevy_crash_capture` version |
+|:-------------|:-----------------------------|
+| `0.20`       | `0.1`                        |
 
 ## License
 
