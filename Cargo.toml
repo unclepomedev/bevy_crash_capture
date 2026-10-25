@@ -10,7 +10,7 @@ keywords = ["bevy", "monitoring"]
 categories = ["game-development"]
 
 [dependencies]
-minidumper-child = "0.6"
+minidumper-child = "0.7"
 bevy_app = { version = "0.20", default-features = false, features = ["std"] }
 ureq = { version = "3", features = ["json"], optional = true }
 serde = { version = "1", features = ["derive"], optional = true }
